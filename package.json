@@ -20,13 +20,13 @@
   "dependencies": {
     "@digital-alchemy/automation": "^25.3.1",
     "@digital-alchemy/core": "^25.5.1",
-    "@digital-alchemy/hass": "^25.3.2",
+    "@digital-alchemy/hass": "^25.5.1",
     "@digital-alchemy/mqtt-extension": "^25.1.1",
     "@digital-alchemy/synapse": "^25.3.1",
     "dayjs": "^1.11.13",
     "dotenv": "^16.5.0",
     "ini": "^5.0.0",
-    "node-cron": "^3.0.3",
+    "node-cron": "^4.0.2",
     "ws": "^8.18.2"
   },
   "devDependencies": {
@@ -43,7 +43,7 @@
     "eslint-config-prettier": "10.1.5",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-prettier": "^5.4.0",
-    "eslint-plugin-unicorn": "^55.0.0",
+    "eslint-plugin-unicorn": "^59.0.1",
     "figlet-cli": "^0.3.0",
     "globals": "^16.1.0",
     "husky": "^9.1.7",
