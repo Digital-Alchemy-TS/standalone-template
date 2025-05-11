@@ -6,8 +6,8 @@ This repository is designed to work as a locally running development server, as 
 
 ### Prerequisites
 
-Digital Alchemy targets `node20`, which is the only required system dependency.
-You should have Home Assistant already running at this point.
+Digital Alchemy requires minimum `node20`, bun & deno also supported.
+You also have Home Assistant already running and a long lived access token for your code to access.
 
 **Recommended workspace tools**:
 
@@ -49,10 +49,14 @@ HASS_TOKEN=LONG_LIVED_ACCESS_TOKEN
 HASS_BASE_URL=http://localhost:8123
 ```
 
-Then configure each variable in `.env` so that the application can connect to your HA instance.
+### Build Types
 
-- ⚙️ [Configuration system](/docs/core/configuration)
-- ⚙️ [HASS configuration options](/docs/home-automation/hass/configuration)
+Use the type writer script to build custom definitions for your **Home Assistant** instance.
+These are written to a `src/hass` folder by default.
+
+```bash
+yarn type-writer
+```
 
 ## 💻 Commands
 

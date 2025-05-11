@@ -54,6 +54,7 @@ export default [
       "unicorn/prefer-top-level-await": "off",
       "unicorn/import-style": "off",
       "unicorn/prefer-module": "off",
+      "unicorn/expiring-todo-comments": "off",
       "unicorn/no-null": "off",
       "unicorn/prevent-abbreviations": "off",
     },
