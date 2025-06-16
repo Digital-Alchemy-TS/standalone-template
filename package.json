@@ -33,7 +33,7 @@
     "@digital-alchemy/type-writer": "^25.3.2",
     "@eslint/compat": "^1.2.9",
     "@eslint/eslintrc": "^3.3.1",
-    "@eslint/js": "^9.26.0",
+    "@eslint/js": "^9.29.0",
     "@types/node": "^22.15.17",
     "@types/node-cron": "^3.0.11",
     "@types/ws": "^8.18.1",
